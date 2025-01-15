@@ -120,4 +120,7 @@ h4 {
   h4 {
     font-size: 22px;
   }
+  .small-image {
+    width: 50%;
+  }
 }
