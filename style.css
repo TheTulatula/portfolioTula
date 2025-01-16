@@ -106,7 +106,7 @@ h4 {
   padding-bottom: 30px;
 }
 
-.row {
+.row.contactRow {
   margin-bottom: 15px;
   max-width: 250px;
   margin-left: auto;
