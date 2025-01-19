@@ -3,6 +3,7 @@
   --secondary-color: white;
   --third-color: rgb(240, 239, 239);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --heading-font-family: "Playfair Display", serif;
 }
 
 body {
@@ -14,15 +15,14 @@ nav {
 }
 h1,
 h2,
-h3,
-h4 {
+h3 {
   text-align: center;
   margin: 0;
 }
 
 h1 {
   font-size: 96px;
-  font-family: playfair;
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
 
@@ -90,6 +90,10 @@ h3 {
   margin: 20px 0;
   padding: 20px;
 }
+#contact .contactContainer {
+  margin: 30px 0;
+  padding-bottom: 30px;
+}
 
 #contact {
   text-align: center;
@@ -99,11 +103,9 @@ h3 {
   background-color: var(--secondary-color);
   border-radius: 10px;
 }
-#contact .contactContainer {
-  margin: 30px 0;
-  padding-bottom: 30px;
+#contact h2 {
+  font-weight: bold;
 }
-
 .row.contactRow {
   margin-bottom: 15px;
   max-width: 250px;
