@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #457b9d;
+  --primary-color: #3d348b;
   --secondary-color: white;
   --third-color: rgb(240, 239, 239);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -43,6 +43,7 @@ h3 {
 }
 .btn {
   background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .navigation-links {
@@ -105,6 +106,7 @@ h3 {
 }
 #contact h2 {
   font-weight: bold;
+  font-family: var(--heading-font-family);
 }
 .row.contactRow {
   margin-bottom: 15px;
@@ -124,13 +126,32 @@ h3 {
   width: 30px;
   height: auto;
 }
-
+footer {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: var(--secondary-color);
+  margin-bottom: 30px;
+  opacity: 0.6;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 10px 5px;
+}
+footer img.icon {
+  padding: 0 5px 5px;
+}
+footer:hover {
+  opacity: 1;
+}
 @media (max-width: 600px) {
   h1 {
     font-size: 48px;
   }
   h2 {
-    font-size: 32px;
+    font-size: 28px;
   }
   h3,
   h4 {
