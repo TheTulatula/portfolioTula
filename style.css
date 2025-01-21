@@ -164,16 +164,21 @@ footer:hover {
 }
 @media (max-width: 600px) {
   h1 {
-    font-size: 48px;
+    font-size: 44px;
   }
   h2 {
-    font-size: 28px;
+    font-size: 24px;
   }
   h3 {
-    font-size: 22px;
+    font-size: 18px;
   }
   h4 {
-    font-size: 38px;
+    font-size: 34px;
+  }
+  div.about-paragraphs {
+    margin: 20px auto !important;
+    max-width: 85%;
+    padding: 10px 20px;
   }
   .about-paragraphs p {
     padding: 5px;
@@ -182,7 +187,7 @@ footer:hover {
     width: 50%;
   }
   #contact {
-    margin: 30px 60px;
+    margin: 20px 60px;
   }
   .row {
     flex-direction: column;
