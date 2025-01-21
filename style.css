@@ -13,9 +13,14 @@ body {
 nav {
   margin-bottom: 30px;
 }
+.nav-link.active {
+  color: var(--primary-color) !important;
+}
+
 h1,
 h2,
-h3 {
+h3,
+h4 {
   text-align: center;
   margin: 0;
 }
@@ -32,6 +37,12 @@ h2 {
 
 h3 {
   font-size: 24px;
+  padding-top: 20px;
+}
+h4 {
+  font-size: 58px;
+  font-weight: bold;
+  font-family: var(--heading-font-family);
 }
 .cardsContainer {
   max-width: 800px;
@@ -104,10 +115,7 @@ h3 {
   background-color: var(--secondary-color);
   border-radius: 10px;
 }
-#contact h2 {
-  font-weight: bold;
-  font-family: var(--heading-font-family);
-}
+
 .row.contactRow {
   margin-bottom: 15px;
   max-width: 250px;
@@ -153,9 +161,11 @@ footer:hover {
   h2 {
     font-size: 28px;
   }
-  h3,
-  h4 {
+  h3 {
     font-size: 22px;
+  }
+  h4 {
+    font-size: 38px;
   }
   .about-paragraphs p {
     padding: 5px;
