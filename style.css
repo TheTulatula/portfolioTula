@@ -151,6 +151,11 @@ footer a {
 footer img.icon {
   padding: 0 5px 5px;
 }
+footer p {
+  font-size: 12px;
+  padding-bottom: 15px;
+  opacity: 0.7;
+}
 footer:hover {
   opacity: 1;
 }
