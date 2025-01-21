@@ -59,7 +59,7 @@ h4 {
 
 .navigation-links {
   display: flex;
-  margin: 30px auto;
+  margin: 30px auto 120px;
   justify-content: center;
 }
 
@@ -139,7 +139,7 @@ footer {
   font-size: 16px;
   font-weight: 500;
   background-color: var(--secondary-color);
-  margin-bottom: 30px;
+  margin: 30px 0px;
   opacity: 0.6;
 }
 footer a {
