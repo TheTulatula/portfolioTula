@@ -102,6 +102,17 @@ h4 {
   margin: 20px 0;
   padding: 20px;
 }
+.resume {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px;
+  display: flex;
+  width: 100px;
+  margin: 20px auto;
+  justify-content: center;
+}
 #contact .contactContainer {
   margin: 30px 0;
   padding-bottom: 30px;
